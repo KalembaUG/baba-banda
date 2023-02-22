@@ -1,0 +1,128 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+*{
+    padding: 0px;
+    margin-block-end: 0%;
+    margin-left: 0%;
+    padding-right: 0%;
+    margin-top: 0px;
+
+}
+body{
+    margin: auto;
+}
+
+
+span#baba ,span#banda{
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+span#baba{
+    color: gold;
+}
+span#banda{
+    color: white;
+}
+
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    background-color: black;
+}
+
+
+.logo{
+    align-self: center;
+    min-width: max-content;
+    max-width: max-content;
+    display: flex;
+    min-width: 10%;
+    width: min-content;
+
+}
+
+#logo-image{
+    width: 3rem;
+    height: auto;
+    align-self: center;
+}
+
+.psycic p{
+    color: white;
+    text-align: center;
+}
+
+
+#cast-spell:after{
+content: "\f061";
+}
+
+.first{
+    background-color: #a52a8f;
+    background-image: url(./images/craft.jpg);
+    background-size: cover;
+    height: 70vh;
+    align-items: center;
+    align-content: center;
+    display: grid;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    padding: auto;
+}
+a {
+text-decoration: none;
+}
+
+footer {
+    display: grid;
+    align-items: center;
+    background-color: blueviolet;
+
+}
+
+.year{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    background-color: brown;
+
+}
+.last{
+    background-image: url(./images/lovers.jpg);
+    background-size:cover ;
+}
+p.disclaimer-note{
+    text-align: justify;
+}
+
+/* 
+@media screen and (max-width: 250px) {
+        nav{
+            visibility:hidden;
+        }
+} */
+
+.logo h1{
+ width: 12rem;
+ height: 3rem;   
+}
