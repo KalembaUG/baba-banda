@@ -1,0 +1,24 @@
+{
+  "name": "baba-banda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/output.css --watch", 
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KalembaUG/baba-banda.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KalembaUG/baba-banda/issues"
+  },
+  "homepage": "https://github.com/KalembaUG/baba-banda#readme",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.2.3"
+  }
+}
